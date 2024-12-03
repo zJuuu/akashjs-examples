@@ -1,0 +1,30 @@
+{
+  "name": "akash-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "tsc --watch",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@akashnetwork/akash-api": "^1.4.0",
+    "@akashnetwork/akashjs": "^0.10.1",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@cosmjs/stargate": "^0.32.4",
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
